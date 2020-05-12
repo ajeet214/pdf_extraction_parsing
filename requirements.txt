@@ -1,0 +1,5 @@
+pyocr
+Pillow
+Flask
+Wand
+PyPDF2

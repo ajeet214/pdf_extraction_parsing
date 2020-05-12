@@ -1,0 +1,14 @@
+2020-05-12 13:13:04,256:ERROR:error in parsing
+Traceback (most recent call last):
+  File "/home/jarvis/PycharmProjects/sm_da_mca_formsextraction_py/main.py", line 39, in parse_annual
+    result1 = obj.data_parsing()
+  File "/home/jarvis/PycharmProjects/sm_da_mca_formsextraction_py/modules/llp8_annual_form.py", line 238, in data_parsing
+    pin_code = state_pin[1].split()[-1]
+IndexError: list index out of range
+2020-05-12 13:30:13,031:ERROR:error in parsing LLP Form8-01122017_signed.pdf file in llp8 interim 
+Traceback (most recent call last):
+  File "/home/jarvis/PycharmProjects/sm_da_mca_formsextraction_py/main.py", line 41, in parse_annual
+    result1 = obj.data_parsing()
+  File "/home/jarvis/PycharmProjects/sm_da_mca_formsextraction_py/modules/llp8_annual_form.py", line 238, in data_parsing
+    pin_code = state_pin[1].split()[-1]
+IndexError: list index out of range
